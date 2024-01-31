@@ -10,6 +10,12 @@ Proctored learning involves monitoring and ensuring the integrity of an exam or 
   - No Face Recognition
 ## Usage
 The algorithm ensures that the examinee does not look away from the screen. If the user looks away, or isn't detected by the camera for too long, the user is flagged for potential malicious activity and is blocked from giving the test for some time.
+![plot](./Image1.png)
+The model detects when the user is looking at the screen.
+![plot](./Image2.png)
+The model detects when the user is not looking at the screen.
+![plot](./Image3.png)
+The examinee is flagged for malicious activity.
 ## Future Features
   - Advanced Gaze Tracking: Implement more sophisticated gaze tracking algorithms to improve accuracy and robustness.
   - User Authentication: Introduce user authentication mechanisms to ensure the identity of the test-taker and prevent unauthorized access using Facial Recognition.
